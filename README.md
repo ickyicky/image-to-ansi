@@ -2,7 +2,9 @@
 
 *Credit where credit is due.*
 
-This python script is based off of original work by Micah Elliott (MicahElliott) located in Gist colortrans.py which was then used to create image-to-ansi.py by K Lange (klange) and subsequently improved on by Takumi Sueda (puhitaku). A big thanks to those foundations. After all of that it was forked, converted to python3 andsome minor features were added.
+Original script was written by Torry Crass and is avalibe on his github (https://github.com/torrycrass/image-to-ansi). This fork provides image scaling to fit into terminal as well as script being ported to python3, rather than being python2 one.
+
+This python script is based off of original work by Micah Elliott (MicahElliott) located in Gist colortrans.py which was then used to create image-to-ansi.py by K Lange (klange) and subsequently improved on by Takumi Sueda (puhitaku). A big thanks to those foundations.
 
 ## Purpose
 
