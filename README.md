@@ -2,7 +2,7 @@
 
 *Credit where credit is due.*
 
-This python script is based off of original work by Micah Elliott (MicahElliott) located in Gist colortrans.py which was then used to create image-to-ansi.py by K Lange (klange) and subsequently improved on by Takumi Sueda (puhitaku). A big thanks to those foundations.
+This python script is based off of original work by Micah Elliott (MicahElliott) located in Gist colortrans.py which was then used to create image-to-ansi.py by K Lange (klange) and subsequently improved on by Takumi Sueda (puhitaku). A big thanks to those foundations. After all of that it was forked, converted to python3 andsome minor features were added.
 
 ## Purpose
 
@@ -11,19 +11,21 @@ This script uses python libraries to provide a way to take image files and make 
 ![alt text](https://github.com/torrycrass/image-to-ansi/blob/master/demo.png "demo converted cli image")
 
 ### Prerequisites
-*Assumptions*
 
-Yeah yeah, I'm aware about assumptions but this isn't subtaintial enough that I'm going to put in undue effort on this. So, all instructions, suggestions, and guidance assume that you're using Debian/Ubuntu. This will also assume you are using a newer version of either distro. If you are using an older version change **apt** to **apt-get** where you find it.
+This script requires python3 and  pillow python package:
 
-1. Python (if not already installed install by **apt install python**)
-2. python-pip (**apt install python-pip**)
-3. Pillow (**pip install pillow**)
-4. Image (**pip install Image**)
+```sh
+pip install pillow --user
+```
 
-### To-Do List
 
-- [ ] Review sizing of output. Currently images larger than 50x50 are not very practical for console use.
-- [x] Update script to display help information on run without variable or --help option
+### Usage
+
+Simpy ensure **image-to-ansi.py** has executable permissions (`chmod +x image-to-ansi.py`) and provide image path as an argument for this script. For maximum convenience i highly advise you to create an alias to this script, for example:
+
+```sh
+alias toansi='${HOME}/Projects/Personal/image-to-ansi/image-to-ansi.py'
+```
 
 #### Additional References/Resources
 
@@ -38,3 +40,4 @@ Yeah yeah, I'm aware about assumptions but this isn't subtaintial enough that I'
 - Micah Elliott (MicahElliott): https://gist.github.com/MicahElliott/719710
 - K Lange (klange): https://gist.github.com/klange/1687427
 - Takumi Sueda (puhitaku): https://gist.github.com/puhitaku/7eaf6142fa5a42425f55
+- Torry Crass (torrycrass): https://github.com/torrycrass/image-to-ansi
