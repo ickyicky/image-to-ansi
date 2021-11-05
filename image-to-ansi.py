@@ -29,12 +29,18 @@ allowing the user to run: python image-to-ansi.py <filename>
 
 __author__ = "Micah Elliott http://MicahElliott.com; Kevin Lange <k@dakko.us>; Takumi Sueda <puhitaku@gmail.com>; Torry Crass <tc.github@outlook.com>; Piotr Domanski <pi.domanski@gmail.com>"
 __copyright__ = "Copyright (C) 2011 Micah Elliott.  All rights reserved."
-__credits__ = ["Micah Elliott", "Kevin Lange", "Takumi Sueda", "Torry Crass", "Piotr Domanski"]
+__credits__ = [
+    "Micah Elliott",
+    "Kevin Lange",
+    "Takumi Sueda",
+    "Torry Crass",
+    "Piotr Domanski",
+]
 
 __license__ = "WTFPL http://sam.zoy.org/wtfpl/"
 __version__ = "0.3"
-__maintainer__ = "Torry Crass"
-__email__ = "tc.github@outlook.com"
+__maintainer__ = "Piotr Domanski"
+__email__ = "pi.domanski@gmail.com"
 __status__ = "Development"
 
 import sys
